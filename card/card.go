@@ -5,7 +5,7 @@ import (
 )
 
 func PaymentSources(cards []types.Card) []types.PaymentSource {
-	payment := make([]types.PaymentSource, 10)
+	payment := make([]types.PaymentSource, 4)
 	j := 0
 
 	for _, operations := range cards {

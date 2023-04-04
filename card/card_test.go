@@ -51,5 +51,7 @@ func ExamplePaymentSources() {
 	}
 	fmt.Println(card.PaymentSources(cards))
 
-	//output:
+	//Output:
+	//[{  800000} {  0} {  0} {  0}]
+
 }
